@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "First post",
+        "content": "This is the first post.",
+        "author": "Author1",
+        "date": "2023-01-01"
+    },
+    {
+        "title": "My First Blog Post",
+        "content": "This is the content of my first blog post.",
+        "author": "Test User",
+        "date": "2023-06-07",
+        "id": 3,
+        "user_id": "testuser"
+    },
+    {
+        "title": "My Fairness",
+        "content": "This is the content of my first blog post.",
+        "author": "Test User",
+        "date": "2023-06-07",
+        "id": 4,
+        "user_id": "testuser"
+    }
+]
