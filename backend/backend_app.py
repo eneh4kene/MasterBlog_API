@@ -199,8 +199,8 @@ def update_post(id):
     if post is None:
         return jsonify({"message": f"Sorry, no post with ID: {id}"}), 404
 
-    # if post['user_id'] != current_user:
-    #     return jsonify({"error": "Unauthorized"}), 403
+    if post['user_id'] != current_user:
+        return jsonify({"error": "Unauthorized"}), 403
 
     new_data = request.get_json()
     error_response = validate_data(new_data)
